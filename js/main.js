@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var Game = function() {
 	this.count = 0
+	this.title = "clk.clk - incremental"
 	this.counter = $("#count")
 	this.up = $("#upgrades")
 	this.stats = $("#stats")
@@ -42,6 +43,7 @@ $(document).ready(function() {
 		} else {
 			this.count = amount
 		}
+		document.title = this.title + "(" + this.count.toFixed(2) + ")"
 		this.counter.text(this.count.toFixed(2))
 	}	
 	this.updateStats = function updateStats() {
