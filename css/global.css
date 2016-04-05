@@ -1,0 +1,32 @@
+
+.pane {
+	width: 800px;
+}
+
+.game {
+	display: block;
+	width: 75%
+	margin: 0 auto
+	text-align: center;
+	display: block;
+
+}
+.upgrade {
+	display: inline;
+}
+
+
+.upgrades {
+	display: block;
+}
+
+.perClick, .perSecond {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.perClick {
+	float: left;
+}
+
+
